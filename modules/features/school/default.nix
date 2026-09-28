@@ -3,6 +3,7 @@
     environment.systemPackages = with pkgs; [
       obsidian
       libreoffice-qt
+      imagemagick
     ];
     services = {
       avahi = {

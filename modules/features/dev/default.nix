@@ -7,6 +7,7 @@
   in {
     imports = modules;
     environment.systemPackages = with pkgs; [
+      docker
     ];
   });
 }
