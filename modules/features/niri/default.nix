@@ -21,6 +21,11 @@
 	  "${lib.getExe inputs'.zen-browser.packages.default}"
 
 	];
+  outputs = {
+    "eDP-1" = {
+      mode = "2880x1920@60.000";
+    };
+  };
 	binds = {
 	  "Mod+Q".spawn-sh = lib.getExe self'.packages.kitty;
 	  "Mod+C".close-window = {};
