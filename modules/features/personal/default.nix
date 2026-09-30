@@ -6,6 +6,7 @@
       godot_4
       krita
       gimp
+      nh
     ];
   };
 }
