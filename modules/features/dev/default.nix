@@ -6,9 +6,7 @@
     ];
   in {
     imports = modules;
-    environment.systemPackages = with pkgs; [
-      docker
-    ];
+    virtualisation.docker.enable = true;
   });
 }
     
