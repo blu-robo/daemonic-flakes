@@ -4,6 +4,7 @@
       obsidian
       libreoffice-qt
       imagemagick
+      cachix
     ];
     services = {
       avahi = {
@@ -12,6 +13,7 @@
         openFirewall = true;
       };
       printing.enable = true;
+      
     };
   };
 }
