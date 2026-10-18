@@ -7,6 +7,7 @@
       krita
       gimp
       nh
+      wineWow64Packages.waylandFull
     ];
   };
 }
