@@ -17,6 +17,7 @@
     services = {
       upower.enable = true;
       openssh.enable = true;
+      xserver.enable = true;
     };
     environment.systemPackages = with pkgs; [
       wget
